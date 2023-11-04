@@ -1,0 +1,64 @@
+Tkinter :
+    library used for creating graphical user interfaces (GUIs).
+----------------------------------------------------------------------------------------------------------------------------
+class Calculator:
+    
+    def __init__(self, master): 
+-> ' __init__ ' constructor method of the Calculator class
+-> 'self' is a reference to the instance of the class that's being created
+-> 'master' is a parameter that represents the master window for the calculator
+        
+        master.resizable(False, False):
+    -> 'resizable' the user can resize the main window (horizontal and vertical directions)
+    -> 'False' locking the size of the window
+    -> '.resizable(False, False)' create a fixed-size window that cannot be resized
+----------------------------------------------------------------------------------------------------------------------------
+Button(root, width=  , height=  , text=' ', relief='flat', bg='  ', command=lambda:self.show(' ')).place(x=0, y=0)
+
+    Button:
+-> creation of a Button
+
+    root:
+-> cration de widgets / la gestion d'événements / le contrôle de l'interface utilisateur
+
+    width=  : 
+-> largeur
+
+    height=  : 
+-> hauteur 
+
+    text='  ' :
+-> text qui doit etre visible
+
+    relief='flat' : 
+-> the widget will have no 3D border or relief effect
+
+    bg='  ' : 
+-> color
+
+    command=lambda:self.show(' ') : 
+-> works only with the Tkinter library
+-> when it is clicked, it will call the (' ')
+----------------------------------------------------------------------------------------------------------------------------
+self.entry_value+=str(value) :
+
+    self.entry_value:
+-> self + variable (entry_value)
+
+    str(value):
+-> converts the value to a string
+----------------------------------------------------------------------------------------------------------------------------
+root=Tk():
+
+    Tk():
+-> class provided by the Tkinter library
+-> create an instance of this class, which is your application's main window
+----------------------------------------------------------------------------------------------------------------------------
+calculator=Calculator(root):
+-> you can interact with the calculator within the application
+----------------------------------------------------------------------------------------------------------------------------
+root.mainloop():
+
+    main.loop():
+-> continuous loop
+----------------------------------------------------------------------------------------------------------------------------
