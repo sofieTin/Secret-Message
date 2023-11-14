@@ -48,7 +48,7 @@ def encrypt():
         
         Label(screen1, text="ENCRYPT", font="arial", fg="white", bg="red").place(x=10, y=0)
         text2=Text(screen1, font="Rpbote 10", bg="white", relief=GROOVE, wrap=WORD, bd=0)
-        text2.place(x=10, y=40, width=380, heught=150)
+        text2.place(x=10, y=40, width=380, height=150)
         
         text2.insert(END, encrypt)
         
@@ -70,7 +70,7 @@ def main_screen():
     screen=Tk()
     screen.geometry("375x398")
     
-    #icon
+    #icon7
     #! image_icon=PhotoImage(file="keys.png")
     #! screen.iconphptp(False,image_icon)
     screen.title("PctApp")

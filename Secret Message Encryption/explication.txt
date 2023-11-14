@@ -20,7 +20,34 @@ def decrypt():
     .configure(bg="#00bd56"):
 -> définir la couleur du background color d'un widget graphique
 
+    message=text1.get(1.0,END):
+-> obtient le contenue du widget (text1)
+-> (1.0,END) récupère le texte de la premiere ligne (1.0) jusqu'à la fin (END)
 
+    decode_message=message.decode("ascii"):
+-> sert à décoder le contenu du widget avec le jeu 'ascii'
+
+    base64_bytes=base64.b64decode(decode_message):
+-> fait une chaine de caractere avec algorythme de 'base64'
+
+    decrypt=base64_bytes.decode("ascii"):
+-> reprend la chaine de caractere et le décode avec 'ascii'
+
+    Label(screen2, text="DECRYPT", font="arial", fg="white", bg="#00bd56").place(x=10, y=0):
+    ^^^^^         ^^^^^^                         ^^^^^^^^^^  ^^^^^^^^^^^^    
+  afficher du    txt voulu                     couleur txt   couleur background 
+     txt                        
 ----------------------------------------------------------------------------------------------------------------------------
+def encrypt():
 
+    screen1=Toplevel(screen):
+-> créé une nouvelle fenetre 
+-> (Toplevel) création nouvelle fenetre independante
+----------------------------------------------------------------------------------------------------------------------------
+def main_screen():
+    
+    global 
+-> variable est global pas locale
+                ^^^^^^     ^^^^^^
+   mettre dans fonction   dans fonction
 ----------------------------------------------------------------------------------------------------------------------------
