@@ -1,8 +1,25 @@
 INSTALL REQUIRED MODULE :
 * pip install pybase64 
 ----------------------------------------------------------------------------------------------------------------------------
+    import base64:
+-> fournit des fonctions pour encoder des données binaires en texte et décoder des données textuelles
 
+    import os:
+->  accéder au système de fichiers, manipuler des répertoires
 ----------------------------------------------------------------------------------------------------------------------------
+def decrypt():
+
+    sode.get():
+-> pour obtenir un mot de passe
+
+    .geometry("400x200"):
+-> avec bibiliotheque Tkinter
+-> création d'une fenêtre graphique
+-> largeur de 400 pixels et une hauteur de 200 pixels
+
+    .configure(bg="#00bd56"):
+-> définir la couleur du background color d'un widget graphique
+
 
 ----------------------------------------------------------------------------------------------------------------------------
 
